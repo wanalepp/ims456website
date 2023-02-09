@@ -1,0 +1,283 @@
+.body1 {
+  background-color: #a7e5a2;
+}
+.h1 {
+  text-align: center;
+  color: #374c36;
+  font-family: "Georgia", Times, serif;
+}
+
+.about {
+	font-family: "Georgia", Times, serif;
+	text-align: justify;
+	margin-right: 40px;
+	
+}
+
+.movie {
+	font-family: "Georgia", Times, serif;
+	text-align: justify;
+	margin-right: 80px;
+	margin-left: 180px;
+	margin-top: 50px;
+	border:1px solid black;
+	background-color: white;
+}
+
+.movie2 {
+	font-family: "Georgia", Times, serif;
+	text-align: justify;
+	margin-right: 80px;
+	margin-left: 180px;
+	margin-top: 70px;
+	border:1px solid black;
+	background-color: white;
+}
+
+.muka {
+	display: block;
+	margin-left: auto;	
+	margin-right: auto;
+	width: 20%;
+	border-radius: 50%;
+}
+
+.imgtwo {
+	display: block;
+	margin-left: auto;	
+	margin-right: auto;
+	width: 20%;
+}
+
+.imgthree {
+	display: block;
+	margin-left: auto;	
+	margin-right: auto;
+}
+
+.imgfour {
+	display: block;
+	margin-left: auto;	
+	margin-right: auto;
+	width: 30%;
+}
+
+.table1 {
+	border:1px solid black;
+	margin-top:80px;
+	width:40%;
+	background-color:#ffefc1;
+	margin:center;
+	margin-left: auto;	
+	margin-right: auto;
+}
+
+.h2 {
+  text-align: center;
+  color: #374c36;
+  font-family: "Georgia", Times, serif;
+}
+
+.h3 {
+  text-align: left;
+  color: #374c36;
+  font-family: "Georgia", Times, serif;
+}
+
+.h4 {
+  text-align: center;
+  color: #fce5cd;
+  font-family: "Georgia", Times, serif;
+}
+
+.h5 {
+  text-align: left;
+  color: #fce5cd;
+  font-family: "Georgia", Times, serif;
+}
+
+.btn1 {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  border-radius: 8px;
+}
+
+.btn1:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; 
+}
+
+.imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgone {
+  height: 15%;
+  width: 15%;
+  float: left;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #E92332;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.text2 {
+  color: #552255;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #000000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.margin1 {
+  margin-right: 100px;
+  margin-left: 100px;
+  border: 1px solid black;
+  background-color: lightblue;
+  font-family: "Georgia", Times, serif;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.margin2 {
+  margin-right: 80px;
+  margin-left: 80px;
+  font-family: "Georgia", Times, serif;
+  text-align: justify;
+  text-justify: inter-word;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.margin3 {
+  margin-right: 100px;
+  margin-left: 100px;
+  font-family: "Georgia", Times, serif;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.imgleft {
+  float: left;
+}
+
+.imgleft2 {
+  float: left;
+  display: block;
+	margin-left: 100px;	
+	margin-right: auto;
+	width: 30%;
+}
+
+.imgright {
+  float: right;
+  display: block;
+	margin-left: auto;	
+	margin-right: auto;
+	width: 30%;
+}
